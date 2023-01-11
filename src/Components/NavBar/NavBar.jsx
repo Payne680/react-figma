@@ -1,5 +1,6 @@
 import NavIcons from '../../Images/Rectangle 1.png'
 import Style from "./Navbar.module.css";
+import {Link} from "react-router-dom"
 import React from "react";
 
 function Navbar() {
@@ -7,8 +8,8 @@ function Navbar() {
         <div className={Style.menuContent}>
                  <img src={NavIcons} alt="Nav"  className={Style.vector}/>
            <div className= {Style.menu}>
-            <p> <a href="about" className={Style.menuChild}>Home</a> </p>
-            <p> <a href="about" className={Style.menuChild}>About</a> </p>
+            <p> <Link className={Style.menuChild}to="/">Home </Link> </p>
+            <p> <Link className={Style.menuChild}to="about">About</Link> </p>
             <p> <a href="about" className={Style.menuChild}>Tour package</a> </p>
             <p> <a href="about" className={Style.menuChild}>Gallery</a> </p>
             <p> <a href="about" className={Style.menuChild}>Blog</a> </p>
