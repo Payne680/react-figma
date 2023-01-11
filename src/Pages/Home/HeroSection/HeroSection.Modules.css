@@ -1,0 +1,24 @@
+.heroSection{
+    background-image: linear-gradient( transparent, rgba(0,0,0,0.9)), url('../../../assets/HeroSection.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 400px;
+    padding: 130px 200px;
+    color: #fff;
+}
+
+
+.heroSection h1{
+    font-size: 80px;
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+}   
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px;
+}
