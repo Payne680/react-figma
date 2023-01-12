@@ -1,0 +1,237 @@
+.imagePlaceholderIcon {
+    position: absolute;
+    top: 0;
+    left: 712px;
+    width: 500px;
+    height: 682px;
+    object-fit: cover;
+    margin-left: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Images/Image\ Placeholder.png");
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-sm);
+    background-color: var(--light-text-link-color-white1);
+    width: 816px;
+    height: 81.35px;
+  }
+  .clickHere {
+    display: block;
+    text-align: center;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    font-weight: 600;
+    background: #304F47;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+  }
+
+  .button {
+    position: absolute;
+    top: 14.79px;
+    left: 641px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 159px;
+    height: 81.77px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-left: 7vw;
+  }
+  .akageraTour,
+  .chevronBottomIcon {
+    position: absolute;
+    top: 5.36px;
+    left: 144px;
+    width: 16px;
+    height: 14.79px;
+  }
+  .akageraTour {
+    top: 0;
+    left: 0;
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    display: inline-block;
+    width: 106px;
+    height: 18px;
+  }
+  .package,
+  .type {
+    position: absolute;
+    top: 17.75px;
+    left: 0;
+    width: 160px;
+    height: 20.15px;
+  }
+  .package {
+    top: 0;
+    font-size: var(--captions-captions-regular1-size);
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    color: var(--light-text-color-body-2);
+    text-align: left;
+    display: inline-block;
+    width: 63px;
+    height: 12.94px;
+  }
+  .roomType {
+    position: absolute;
+    top: 22.19px;
+    left: 381px;
+    width: 160px;
+    height: 37.9px;
+  }
+  .chevronBottomIcon1 {
+    position: absolute;
+    top: 2.77px;
+    left: 148px;
+    width: 16px;
+    height: 14.79px;
+  }
+  .april2021,
+  .date1 {
+    left: 0;
+    height: 17.56px;
+  }
+  .april2021 {
+    position: absolute;
+    top: 0;
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    display: inline-block;
+    width: 140px;
+  }
+  .date1 {
+    top: 20.34px;
+    width: 164px;
+  }
+  .date,
+  .date1,
+  .date2 {
+    position: absolute;
+  }
+  .date2 {
+    top: 0;
+    left: 0;
+    font-size: var(--captions-captions-regular1-size);
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    color: var(--light-text-color-body-2);
+    text-align: left;
+    display: inline-block;
+    width: 28px;
+    height: 12.94px;
+  }
+  .date {
+    top: 22.19px;
+    left: 161px;
+    width: 164px;
+    height: 37.9px;
+  }
+  .chevronBottomIcon2 {
+    position: absolute;
+    top: 2.77px;
+    left: 65px;
+    width: 16px;
+    height: 14.79px;
+  }
+  .adult,
+  .adult1,
+  .guest1 {
+    position: absolute;
+    left: 0;
+    height: 17.56px;
+  }
+  .adult1 {
+    top: 0;
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    display: inline-block;
+    width: 57px;
+  }
+  .adult,
+  .guest1 {
+    top: 20.34px;
+    width: 81px;
+  }
+  .guest1 {
+    top: 0;
+    font-size: var(--captions-captions-regular1-size);
+    letter-spacing: 0.01em;
+    line-height: 120%;
+    color: var(--light-text-color-body-2);
+    text-align: left;
+    display: inline-block;
+    width: 33px;
+    height: 12.94px;
+  }
+  .explore,
+  .guest {
+    position: absolute;
+    top: 22.19px;
+    left: 24px;
+    width: 81px;
+    height: 37.9px;
+  }
+  .explore {
+    top: 512.06px;
+    left: 0;
+    width: 816px;
+    height: 81.35px;
+    text-align: right;
+  }
+  .discoverTheLand {
+    position: absolute;
+    top: 435px;
+    left: 0;
+    font-size: var(--font-size-lg);
+    letter-spacing: 0.01em;
+    line-height: 125%;
+    color: var(--light-text-color-body-1);
+    display: inline-block;
+    width: 608px;
+    height: 36.98px;
+  }
+  .weAreDedicated {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .providingTheBest {
+    margin: 0;
+  }
+  .weAreDedicatedContainer {
+    position: absolute;
+    top: 188.51px;
+    left: 0;
+    font-size: var(--heading-h1-bold-size);
+    line-height: 120%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    width: 608px;
+    height: 205.23px;
+  }
+  .hero {
+    position: absolute;
+    top: 50px;
+    left: 68px;
+    width: 1212px;
+    height: 782px;
+    text-align: left;
+    font-size: var(--headlines-headline-bold-normal1-size);
+    color: var(--light-text-color-title1);
+    font-family: var(--headlines-headline-bold-normal1);
+  }
+  
