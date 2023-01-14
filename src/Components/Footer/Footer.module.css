@@ -1,257 +1,133 @@
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #304F47;
-    width: 800%;
-    height: 565.37px;
-  }
-  .blog,
-  .contactUs {
-    position: absolute;
-    top: 72.09px;
-    left: 0.49px;
-    letter-spacing: 0.01em;
-    line-height: 120%;
-    display: inline-block;
-    width: 82.17px;
-    height: 19.57px;
-  }
-  .blog {
-    top: 36.04px;
-    left: 0;
-    width: 58px;
-  }
-  .menuList,
-  .ourTeam {
-    position: absolute;
-    width: 87px;
-  }
-  .ourTeam {
-    top: 0;
-    left: 0;
-    letter-spacing: 0.01em;
-    line-height: 120%;
-    display: inline-block;
-    height: 19.57px;
-  }
-  .menuList {
-    top: 273.93px;
-    left: 1133px;
-    height: 91.65px;
-  }
-  .aboutUs,
-  .events,
-  .gallery,
-  .packages {
-    position: absolute;
-    top: 72.09px;
-    left: 0;
-    letter-spacing: 0.01em;
-    line-height: 120%;
-    display: inline-block;
-    width: 70px;
-    height: 19.57px;
-  }
-  .aboutUs,
-  .gallery,
-  .packages {
-    top: 108.13px;
-  }
-  .aboutUs,
-  .packages {
-    top: 36.04px;
-    width: 147px;
-  }
-  .aboutUs {
-    top: 0;
-    width: 102px;
-  }
-  .menuList1 {
-    position: absolute;
-    top: 273.93px;
-    left: 924px;
-    width: 147px;
-    height: 127.7px;
-  }
-  .destinations,
-  .home,
-  .signinn,
-  .testimonials {
-    position: absolute;
-    top: 72.09px;
-    left: 1px;
-    letter-spacing: 0.01em;
-    line-height: 120%;
-    display: inline-block;
-    width: 96px;
-    height: 19.57px;
-  }
-  .home,
-  .signinn,
-  .testimonials {
-    top: 101.95px;
-    width: 68px;
-  }
-  .home,
-  .testimonials {
-    top: 0;
-    left: 0.68px;
-    width: 44.55px;
-  }
-  .testimonials {
-    top: 36.04px;
-    left: 0;
-    width: 97px;
-  }
-  .loremIpsumIs,
-  .menuList2 {
-    position: absolute;
-    top: 273.93px;
-    left: 720px;
-    width: 97px;
-    height: 121.52px;
-  }
-  .loremIpsumIs {
-    top: 150.35px;
-    left: 720.68px;
-    letter-spacing: 0.01em;
-    line-height: 125%;
-    display: inline-block;
-    width: 498.93px;
-    height: 41.19px;
-  }
-  .background1,
-  .footer1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1280px;
-    height: 565.37px;
-  }
-  .background1 {
-    background-color: var(--color-teal-100);
-    width: 617.73px;
-  }
-  .copyrightAfricaWizzy {
-    position: absolute;
-    top: 518px;
-    left: 479px;
-    letter-spacing: 0.01em;
-    line-height: 125%;
-    display: inline-block;
-    width: 271px;
-    height: 20.6px;
-  }
-  .ifYouHaveAnyQuestionsOrW {
-    margin-block-start: 0;
-    margin-block-end: 0;
-  }
-  .inforwandatourismcom1 {
-    text-decoration: underline;
-  }
-  .inforwandatourismcom {
-    color: inherit;
-  }
-  .ifYouHave,
-  .ifYouHaveContainer,
-  .subscribeToOur {
-    position: absolute;
-    left: 103px;
-    font-size: var(--font-size-lg);
-    letter-spacing: 0.01em;
-    line-height: 125%;
-    display: inline-block;
-  }
-  .ifYouHaveContainer {
-    top: 154.47px;
-    color: inherit;
-    width: 395.98px;
-    height: 205.96px;
-  }
-  .ifYouHave,
-  .subscribeToOur {
-    top: 375.88px;
-    width: 309px;
-    height: 25.75px;
-  }
-  .ifYouHave {
-    top: 29.86px;
-    font-size: var(--heading-h3-bold-size);
-    line-height: 120%;
-    font-family: var(--heading-h1-bold);
-    width: 467.25px;
-    height: 96.8px;
-  }
-  .buttonIcon,
-  .textBox {
-    position: absolute;
-    top: 429.43px;
-    left: 444px;
-    width: 55.44px;
-    height: 57.67px;
-    cursor: pointer;
-  }
-  .textBox {
-    top: 0;
-    left: 0;
-    border-radius: var(--br-sm);
-    background-color: var(--light-base-color-white2);
-    width: 332.62px;
-  }
-  .inputYourEmail {
-    position: absolute;
-    top: 18.54px;
-    left: 16.05px;
-    letter-spacing: 0.01em;
-    line-height: 125%;
-    display: inline-block;
-    width: 185px;
-    height: 20.6px;
-  }
-  .textbox {
-    position: absolute;
-    top: 429.43px;
-    left: 96px;
-    width: 332.62px;
-    height: 57.67px;
-    color: var(--light-text-color-body-2);
-  }
-  .contactUs1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 750px;
-    height: 565.37px;
-  }
-  .groupSocialIcons { 
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    width: 50%;
-  }
-  .footerChild {
-    position: absolute;
-    top: 38.1px;
-    left: 731px;
-    width: 86px;
-    height: 88.56px;
-    object-fit: cover;
-    background-size: cover;
-    background-image: url("../../Images/Rectangle\ 1.png");
+.Footer__Container {
+  top: 2000px;
+  background: #304f47;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-  }
-  .footer {
-    position: absolute;
-    margin-top: 150%;
-    left: -1;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 65.37px;
-    text-align: left;
-    font-size: var(--headlines-headline-bold-normal-size);
-    color: #fff;
-    font-family: var(--captions-captions-regular);
-  }
-  
+.FooterContent {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.Footer__title {
+  width: 467.25px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.Footer__sub_title {
+  width: 395.98px;
+  height: 155px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.Footer__sub_sub_title {
+  width: 309px;
+  height: 25.75px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.Input__Email {
+  display: flex;
+  flex-wrap: wrap;
+  width: 332.62px;
+  height: 57.67px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
+
+::placeholder {
+  width: 185px;
+  height: 20.6px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #9a9ab0;
+}
+
+.Btn__Footer {
+  background: #c7923e;
+  border-radius: 8px;
+  border: none;
+  width: 55.44px;
+}
+
+.Submit__Email {
+  display: flex;
+  gap: 15.58px;
+  flex-wrap: wrap;
+}
+
+.FooterImages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.para {
+  width: 498.93px;
+  height: 41.19px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.FooterList {
+  width: 97px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.Footer__LastItem {
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}

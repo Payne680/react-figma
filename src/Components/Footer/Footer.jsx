@@ -1,84 +1,77 @@
-import styles from "./Footer.module.css";
-import vec5 from'../../Images/Group social icons.png'
 import React from "react";
+import Styles from "./Footer.module.css";
+import FooterImage from ".././../Images/footer.png";
+import FooterImage2 from ".././../Images/Rectangle 1.png";
+import FooterImage3 from ".././../Images/Group social icons.png";
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <div className={styles.footer}>
-      <div className={styles.footer1}>
-        <div className={styles.background} />
-        <div className={styles.menuList}>
-          <div className={styles.contactUs}>Contact Us</div>
-          <div className={styles.blog}>Blog</div>
-          <div className={styles.ourTeam}>Our Team</div>
-        </div>
-        <div className={styles.menuList1}>
-          <div className={styles.events}>Events</div>
-          <div className={styles.gallery}>Gallery</div>
-          <div className={styles.packages}>Packages</div>
-          <div className={styles.aboutUs}>About Us</div>
-        </div>
-        <div className={styles.menuList2}>
-          <div className={styles.destinations}>Destinations</div>
-          <div className={styles.signinn}>signinn</div>
-          <div className={styles.home}>Home</div>
-          <div className={styles.testimonials}>Testimonials</div>
-        </div>
-        <div
-          className={styles.loremIpsumIs}
-        >{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. `}</div>
-      </div>
-      <div className={styles.contactUs1}>
-        <div className={styles.background1} />
-        <div className={styles.copyrightAfricaWizzy}>
-          Copyright Africa Wizzy Safari 2022
-        </div>
-        <div className={styles.ifYouHaveContainer}>
-          <p className={styles.ifYouHaveAnyQuestionsOrW}>
+    <div className={Styles.Footer__Container}>
+      <div className={Styles.FooterContent}>
+        <div className={Styles.FooterLeft}>
+          <h1 className={Styles.Footer__title}>
+            If you have any question, Let us help you!
+          </h1>
+          <p className={Styles.Footer__sub_title}>
             If you have any questions or would like to book a tour with us,
             please don't hesitate to contact us.
+            <br />
+            <br />
+            Phone: +250 788 123 456<br />
+             Email: info@rwandatourism.com<br />
+              Address: Kigali, Rwanda
           </p>
-          <p className={styles.ifYouHaveAnyQuestionsOrW}>&nbsp;</p>
-          <p className={styles.ifYouHaveAnyQuestionsOrW}>
-            Phone: +250 788 123 456
+          <p className={Styles.Footer__sub_sub_title}>
+            Subscribe to our newspaper
           </p>
-          <p className={styles.ifYouHaveAnyQuestionsOrW}>
-            {`Email: `}
-            <a
-              className={styles.inforwandatourismcom}
-              href="mailto:info@rwandatourism.com"
-              target="_blank"
-            >
-              <span className={styles.inforwandatourismcom1}>
-                info@rwandatourism.com
-              </span>
-            </a>
-            {` `}
-          </p>
-          <p className={styles.ifYouHaveAnyQuestionsOrW}>
-            Address: Kigali, Rwanda
-          </p>
+          <div className={Styles.Submit__Email}>
+            <input
+              type="email"
+              placeholder="Input your email here"
+              className={Styles.Input__Email}
+            />
+            <button type="submit" className={Styles.Btn__Footer}>
+              <img src={FooterImage} alt="" className="" />
+            </button>
+          </div>
         </div>
-        <b className={styles.subscribeToOur}>Subscribe to our newspaper</b>
-        <b className={styles.ifYouHave}>
-          If you have any question, Let us help you!
-        </b>
-        <button className={styles.buttonIcon}>arrow</button>
-        <div className={styles.textbox}>
-          <div className={styles.textBox} />
-          <div className={styles.inputYourEmail}>Input your email here</div>
+        <div className={Styles.FooterRight}>
+          <div className={Styles.FooterImages}>
+            <img src={FooterImage2} alt="" />
+            <div>
+            <img src={FooterImage3} alt="" className={Styles.Socials__Footer_icons}/>
+            </div>
+            
+          </div>
+
+          <p className={Styles.para}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.{" "}
+          </p>
+          <div className={Styles.Footer__menu}>
+            <div className={Styles.FooterList}>
+              <p>Home</p>
+              <p>Testimonials</p>
+              <p>Destinations</p>
+              <p>signinn</p>
+            </div>
+            <div className={Styles.FooterList}>
+              <p>About Us</p>
+              <p>Packages</p>
+              <p>Events</p>
+              <p>Gallery</p>
+            </div>
+
+            <div className={Styles.FooterList}>
+              <p>Our Team</p>
+              <p>Blog</p>
+
+              <p>Contact Us</p>
+            </div>
+          </div>
         </div>
       </div>
-      <img
-        className={styles.groupSocialIcons}
-        alt=""
-        src="../group-social-icons7.svg"
-      />
-      <img
-        className={styles.footerChild}
-      />
+      <p className={Styles.Footer__LastItem}>Copyright Africa Wizzy Safari 2022</p>
     </div>
   );
-};
-
-export default Footer;
+}
