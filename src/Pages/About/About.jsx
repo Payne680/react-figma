@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import Navbar from '../../Components/Navbar/Navbar';
 import Stickybar from '../../Components/Stickybar/Stickybar';
 import  Hero from '../../Components/Herosection/Hero';
+import Aboutus1 from '../../Components/AboutUs/Aboutus1';
+import Footer from '../../Components/Footer/Footer'
 
 function About() {
   return (
@@ -10,6 +11,8 @@ function About() {
       <Stickybar />
       <Hero />
       <Navbar />
+      <Aboutus1  />
+      <Footer />
     </>
   )
 }

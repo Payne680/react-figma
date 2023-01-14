@@ -11,7 +11,7 @@ function Navbar() {
             <p> <Link className={Style.menuChild}to="/">Home </Link> </p>
             <p> <Link className={Style.menuChild}to="about">About</Link> </p>
             <p> <a href="about" className={Style.menuChild}>Tour package</a> </p>
-            <p> <a href="about" className={Style.menuChild}>Gallery</a> </p>
+            <p> <Link className={Style.menuChild}to="gallery">Gallery</Link> </p>
             <p> <a href="about" className={Style.menuChild}>Blog</a> </p>
             <p> <a href="about" className={Style.menuChild}>Contact us</a> </p>
            </div>

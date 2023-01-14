@@ -1,0 +1,151 @@
+.imagePlaceholderIcon {
+    position: absolute;
+    top: 0;
+    left: 588px;
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Images/about3.png");
+
+  }
+
+  .atAfricaWizzy {
+    letter-spacing: 0.01em;
+    line-height: 125%;
+    display: inline-block;
+  }
+
+  .atAfricaWizzy,
+  .information {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 313px;
+  }
+
+  .aboutSubsection3,
+  .imagePlaceholderIcon1 {
+    position: absolute;
+    top: 589px;
+    left: 0;
+    width: 1088px;
+    height: 320px;
+  }
+
+  .imagePlaceholderIcon1 {
+    top: 0;
+    width: 500px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Images/Image\ Placeholder1.png");
+  }
+
+  .aboutSubsection3,
+  .imagePlaceholderIcon2 {
+    position: absolute;
+    top: 589px;
+    left: 0;
+    width: 1088px;
+    height: 320px;
+  }
+  
+  .imagePlaceholderIcon2 {
+    top: 0;
+    width: 500px;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Images/about2.png");
+  }
+
+  .information1,
+  .welcomeToAfrica {
+    position: absolute;
+    top: 0;
+    width: 504px;
+  }
+
+  .welcomeToAfrica {
+    left: 0;
+    letter-spacing: 0.01em;
+    line-height: 125%;
+    display: inline-block;
+  }
+
+  .information1 {
+    left: 563px;
+    height: 300px;
+  }
+
+  .aboutSubsection2 {
+    position: absolute;
+    top: 202px;
+    left: 7px;
+    width: 1067px;
+    height: 320px;
+  }
+
+  .weAreProud {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .thankYouFor {
+    margin: 0;
+  }
+
+  .aboutSubsection1 {
+    position: absolute;
+    top: 976px;
+    left: 0;
+    width: 1067px;
+    height: 320px;
+  }
+
+  .aboutUsHeaderChild {
+    position: absolute;
+    top: 124px;
+    left: 373px;
+    border-top: 8px solid var(--color-teal-100);
+    box-sizing: border-box;
+    width: 288px;
+    height: 8px;
+  }
+
+  .aboutUs,
+  .aboutUsHeader,
+  .welcomeToAfrica1 {
+    position: absolute;
+    top: 0;
+    width: 1035px;
+    height: 205.23px;
+  }
+
+  .welcomeToAfrica1 {
+    left: 0;
+    line-height: 120%;
+    display: inline-block;
+    font-size: 45px;
+  }
+
+  .aboutUs,
+  .aboutUsHeader {
+    left: 27px;
+    text-align: center;
+    font-size: var(--heading-h1-bold-size);
+    color: var(--light-text-color-title1);
+    font-family: var(--heading-h1-bold);
+  }
+  
+  .aboutUs {
+    top: 1012px;
+    left: 216px;
+    width: 1088px;
+    height: 1296px;
+    text-align: left;
+    font-size: bold;
+    color: dark;
+    font-family: sans-serif;
+  }
+  

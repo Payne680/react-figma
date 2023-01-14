@@ -1,0 +1,140 @@
+import styles from "./Gallery1.module.css";
+import React from "react";
+
+const Gallery1 = () => {
+  return (
+    <div className={styles.gallery}>
+      <div className={styles.photos}>
+        <img
+          className={styles.imagePlaceholderIcon}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon1}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon2}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon3}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon4}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon5}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon6}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon7}
+          alt=""
+          src=""
+        />
+      </div>
+      <div className={styles.photos1}>
+        <img
+          className={styles.imagePlaceholderIcon8}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon9}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon10}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon11}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon12}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon13}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon14}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon15}
+          alt=""
+          src=""
+        />
+      </div>
+      <div className={styles.photos2}>
+        <img
+          className={styles.imagePlaceholderIcon}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon1}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon2}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon3}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon4}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon5}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon6}
+          alt=""
+          src=""
+        />
+        <img
+          className={styles.imagePlaceholderIcon7}
+          alt=""
+          src=""
+        />
+      </div>
+      <div className={styles.button}>
+        <div className={styles.clickHere}>Open Instagram</div>
+      </div>
+    </div>
+  );
+};
+
+export default Gallery1;
